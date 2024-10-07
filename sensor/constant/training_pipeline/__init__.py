@@ -1,5 +1,5 @@
 import os
-from sensor.constant.blob_storage import TRAINING_BUCKET_NAME
+from sensor.constant.s3_bucket import TRAINING_BUCKET_NAME
 
 # defining common constant for training pipeline
 TARGET_COLUMN = "class"
