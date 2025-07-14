@@ -16,48 +16,50 @@ The problem is to reduce the cost due to unnecessary repairs. So it is required 
 3. Machine learning algorithms
 4. Docker
 5. MongoDB
-# 🔧 Sensor Fault Detection – Flowchart Overview
 
-This section illustrates the major components involved in the sensor fault detection pipeline using flowcharts.
+## Prerequisites
+Before we run the project, make sure that you are having MongoDB in your local system, with Compass since we are using MongoDB for data storage. You also need AWS account to access the service like S3, ECR and EC2 instances.
 
----
+## Data Collection
+![Data Collection](flowcharts/data_collection.png)
 
-## 1️⃣ Sensor Data Ingestion Component
+## Project Archietecture
+![project_architecture](flowcharts\project_architecture.png) 
+
+
+## ML Components
+
+### 1. Data Ingestion
 
 ![Sensor Data Ingestion](flowcharts/1_Sensor_Data_Ingestion_Component.png)
 
----
 
-## 2️⃣ Sensor Data Validation Component
+### 2. Data Validation
 
 ![Sensor Data Validation](flowcharts/2_Sensor_Data_Validation_Component.png)
 
----
 
-## 3️⃣ Sensor Data Transformation Component
+### 3. Data Transformation
 
 ![Sensor Data Transformation](flowcharts/3_Sensor_Data_Transformation_Component.png)
 
----
 
-## 4️⃣ Sensor Model Trainer Component
+### 4. Model Trainer
 
 ![Sensor Model Trainer](flowcharts/4_Sensor_Model_Trainer_Component.png)
 
 ---
 
-## 5️⃣ Sensor Model Evaluation Component
+### 5. Model Evaluation
 
 ![Sensor Model Evaluation](flowcharts/5_Sensor_Model_Evaluation_Component.png)
 
----
 
-## 6️⃣ Sensor Model Pusher Component
+### 6. Model Pusher
 
 ![Sensor Model Pusher](flowcharts/6_Sensor_Model_Pusher_Component.png)
 
----
 
-## 7️⃣ Sensor Prediction Pipeline
+### 7. Prediction Pipeline
 
 ![Sensor Prediction Pipeline](flowcharts/7_Sensor_Prediction_Pipeline.png)
