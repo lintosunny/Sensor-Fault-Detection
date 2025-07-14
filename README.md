@@ -31,7 +31,7 @@ Before we run the project, make sure that you are having MongoDB in your local s
 
 ### 1. Data Ingestion
 
-![Sensor Data Ingestion](flowcharts/1_Sensor_Data_Ingestion_Component.png) 
+![Sensor Data Ingestion](flowcharts/1_Sensor_Data%20Ingestion%20Component.png)
 
 ---
 
