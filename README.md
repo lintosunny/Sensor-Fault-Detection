@@ -24,14 +24,14 @@ Before we run the project, make sure that you are having MongoDB in your local s
 ![Data Collection](flowcharts/data_collection.png)
 
 ## Project Archietecture
-![project_architecture](flowcharts\project_architecture.png) 
+![project_architecture](flowcharts/project_architecture.png) 
 
 
 ## ML Components
 
 ### 1. Data Ingestion
 
-![Sensor Data Ingestion](flowcharts/1_Sensor_Data_Ingestion_Component.png)
+![Sensor Data Ingestion](flowcharts/1_Sensor_Data_Ingestion_Component.png) 
 
 ---
 
