@@ -16,3 +16,5 @@ The problem is to reduce the cost due to unnecessary repairs. So it is required 
 3. Machine learning algorithms
 4. Docker
 5. MongoDB
+
+![Alt text](flowcharts/1_sensor_data_ingestion_component.png)
