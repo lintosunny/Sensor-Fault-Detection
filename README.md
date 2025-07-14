@@ -33,16 +33,19 @@ Before we run the project, make sure that you are having MongoDB in your local s
 
 ![Sensor Data Ingestion](flowcharts/1_Sensor_Data_Ingestion_Component.png)
 
+---
 
 ### 2. Data Validation
 
 ![Sensor Data Validation](flowcharts/2_Sensor_Data_Validation_Component.png)
 
+---
 
 ### 3. Data Transformation
 
 ![Sensor Data Transformation](flowcharts/3_Sensor_Data_Transformation_Component.png)
 
+---
 
 ### 4. Model Trainer
 
@@ -54,12 +57,16 @@ Before we run the project, make sure that you are having MongoDB in your local s
 
 ![Sensor Model Evaluation](flowcharts/5_Sensor_Model_Evaluation_Component.png)
 
+---
 
 ### 6. Model Pusher
 
 ![Sensor Model Pusher](flowcharts/6_Sensor_Model_Pusher_Component.png)
 
+---
 
 ### 7. Prediction Pipeline
 
 ![Sensor Prediction Pipeline](flowcharts/7_Sensor_Prediction_Pipeline.png)
+
+---
